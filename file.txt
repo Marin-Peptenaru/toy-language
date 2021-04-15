@@ -1,0 +1,4105 @@
+
+State ID: 11
+Variables
+{
+}
+
+Heap
+{
+}
+
+Execution Stack
+REFERENCE(INT) v1
+REFERENCE(INT) v2
+INT x
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+REFERENCE(INT) v1 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+REFERENCE(INT) v2
+INT x
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+REFERENCE(INT) v1 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+REFERENCE(INT) v2
+INT x
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+INT x
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+INT x
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT x ---> 0
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT x ---> 0
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+INT q
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @0
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+}
+
+Execution Stack
+New v1: 20
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+@1 INT ---> 20
+}
+
+Execution Stack
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @0
+}
+
+Heap
+{
+@1 INT ---> 20
+}
+
+Execution Stack
+New v2: 30
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 0
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NewLock( x )
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x ) )
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NewLock( q )
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) ) | Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) )
+Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q ) )
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x ) )
+Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x ) | @v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) ) | Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x ) | @v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) )
+Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+fork( Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q ) )
+Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )*10) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q ) | @v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q ) | @v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )*10)
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+NOP
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )*10)
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 20
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v2<--- (*(v2 )*10) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 12
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 12
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v2<--- (*(v2 )*10)
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v2<--- (*(v2 )*10)
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+@v1<--- (*(v1 )-1) | Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 30
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+@v1<--- (*(v1 )-1)
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+@v1<--- (*(v1 )-1)
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 200
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( q )
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 13
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 13
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Lock( x )
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Unlock( x )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+@v2<--- (*(v2 )+5) | Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 14
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 14
+Variables
+{
+INT q ---> 0
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+@v2<--- (*(v2 )+5)
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+Print *(v1 )
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 300
+}
+
+Execution Stack
+@v2<--- (*(v2 )+5)
+Unlock( q )
+
+
+Output
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( x )
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Lock owned by Thread 11
+@2 ---> Lock owned by Thread 15
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 15
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Lock( q )
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Lock owned by Thread 11
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Print *(v2 )
+Unlock( q )
+
+
+Output
+199
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Lock owned by Thread 11
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+199
+305
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Lock owned by Thread 11
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+Unlock( q )
+
+
+Output
+199
+305
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Lock owned by Thread 11
+}
+
+------------------------
+
+
+State ID: 11
+Variables
+{
+INT q ---> 2
+INT x ---> 1
+REFERENCE(INT) v1 ---> @1
+REFERENCE(INT) v2 ---> @2
+}
+
+Heap
+{
+@1 INT ---> 199
+@2 INT ---> 305
+}
+
+Execution Stack
+
+
+Output
+199
+305
+
+
+Files
+
+
+Locks
+{
+@1 ---> Free lock
+@2 ---> Free lock
+}
+
+------------------------
+
